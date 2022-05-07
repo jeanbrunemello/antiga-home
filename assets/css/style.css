@@ -83,7 +83,7 @@ h1{
     max-width: 200px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .portifolio{
         display: flex;
         flex-wrap: wrap;
@@ -93,4 +93,12 @@ h1{
         width: 45%;
     }
 } 
+
+@media (min-width: 900px) {
+
+    .main-container{
+        width: 85%;
+    }
+}
+
 
