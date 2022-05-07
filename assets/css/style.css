@@ -101,4 +101,14 @@ h1{
     }
 }
 
+@media (min-width: 1024px) {
+
+    .main-container{
+        width: 80%;
+    }
+
+    .portifolio div{
+        width: 29%;
+    }
+}
 
