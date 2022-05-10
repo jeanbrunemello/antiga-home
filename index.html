@@ -6,27 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jean Brune Mello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
-<header>
-    <section class="header-container">
-        <img class="logo" src="./assets/img/The_Famous_Golden_Bug.gif" alt="foto do Jean">
-        <ul>
-            <li>
-                <a id="github" target="_blank" href="https://github.com/jeanbrunemello">Github</a>
-            </li>
-            <li>
-                <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/jeanbrunemello/">Linkedin</a>
-            </li>
-            <li>
-                <a id="email" target="_blank" href="mailto:jeanbrunemello@gmail.com">email</a>
-            </li>
-        </ul>
-    </section>
-</header>
 
 <body>
+    <!-- inicio do cabeçalho -->
+    <header>
+        <div class="header-container">
+            <div class="header-container__elements">
+                <div class="header-container__logo">
+                    <h1>Jean</h1>
+                </div>
+                <div class="header-container__btn">
+                    <img id="header-container__btn" src="./assets/img/white expand icon by unicons font.png" alt="">
+                    <!-- <button id="header-container__btn">[expand]</button> -->
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-menu">
+            <div></div>
+            <div class="nav-menu__list">
+                <ul>
+                    <li class="nav-menu__item">Sobre</li>
+                    <li class="nav-menu__item">Habilidades</li>
+                    <li class="nav-menu__item">Prêmios</li>
+                    <li class="nav-menu__item">Contato</li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <!-- fim do cabeçalho -->
+
     <section class="main-container">
         <div class="name">
             <h1>Jean Brune Mello</h1>
@@ -66,7 +84,7 @@
                 <h2>
                     <a target="_blank" href="https://jeanbrunemello.github.io/Form-Validation-responsive-/">Validação de
                         formulário front-end
-                    <img src="./assets/img/form-validation.png" alt="front end form validation preview">
+                        <img src="./assets/img/form-validation.png" alt="front end form validation preview">
                     </a>
                 </h2>
                 <p>Front-end form validation project</p>
@@ -96,12 +114,24 @@
                 <h2>
                     <a target="_blank"
                         href="https://jeanbrunemello.github.io/Calculadora-de-IMC-responsivo/">Calculadora de IMC
-                    <img src="./assets/img/body-mass.png" alt="body mass calculator preview">
+                        <img src="./assets/img/body-mass.png" alt="body mass calculator preview">
                     </a>
                 </h2>
                 <p>Body mass index calculator made as small studing project to put in practice some JS and CSS
                     concepts.</p>
             </div>
+        </div>
+
+        <div class="contact">
+            <li><a id="github" target="_blank" href="https://github.com/jeanbrunemello">
+                    <img src="./assets/img/github-icon-by-UniconsFont.png" alt="">
+                </a></li>
+            <li><a id="linkedin" target="_blank" href="https://www.linkedin.com/in/jeanbrunemello/">
+                    <img src="./assets/img/linkedin-icon-by-UniconsFont.png" alt="">
+                </a></li>
+            <li><a id="email" target="_blank" href="mailto:jeanbrunemello@gmail.com">
+                    <img src="./assets/img/mail-icon-by-UniconsFont.png" alt="">
+                </a></li>
         </div>
     </section>
 </body>
