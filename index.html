@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <script src="./assets/js/main.js"></script>
+
 </head>
 
 <body>
@@ -23,7 +25,7 @@
                     <h1>Jean</h1>
                 </div>
                 <div class="header-container__btn">
-                    <img id="header-container__btn" src="./assets/img/white expand icon by unicons font.png" alt="">
+                    <button class="header-container__btn--expand" id="header-container__btn" onclick="toggleCLass()"></button>
                     <!-- <button id="header-container__btn">[expand]</button> -->
                 </div>
             </div>
@@ -31,7 +33,7 @@
 
         <nav class="nav-menu">
             <div></div>
-            <div class="nav-menu__list">
+            <div class="nav-menu__list nav-menu__list--closed">
                 <ul>
                     <li class="nav-menu__item">Sobre</li>
                     <li class="nav-menu__item">Habilidades</li>

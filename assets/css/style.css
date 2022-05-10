@@ -41,24 +41,39 @@ a {
     font-size: 36px;
 }
 
+.header-container__btn--expand{
+    background-image: url('../img/white expand icon by unicons font.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:inherit;
+    border: none;
+}
+
+.header-container__btn--close{
+    background-image: url('../img/white\ close\ icon\ 2\ by\ unicons\ font.png');
+}
+
 #header-container__btn {
     width: 48px;
     height: 48px;
+    transition: all 0.25s ease-in-out ;
 }
 
 .nav-menu {
     text-align: center;
     width: 50%;
     margin: 0 50%;
+    transition: all 4s ease-in-out ;
 }
 
 .nav-menu__list{
     height: 0px;
 }
 
-.nav-menu__list--fechado {
-    display: none;
+.nav-menu__list--closed{
+    overflow: hidden;
 }
+
 
 .nav-menu__list ul {
     background-color: rgba(241, 32, 231, 0.06);
@@ -68,6 +83,8 @@ a {
     padding: 10px;
     font-weight: bold;
 }
+
+
 
 
 
