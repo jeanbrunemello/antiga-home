@@ -194,7 +194,7 @@ body {
     font-size: 60px;
 }
 
-.home__greeting a, {
+.home__greeting a {
     font-size: 1.3em;
     line-height: 1.8em;
 }
