@@ -108,7 +108,6 @@ a {
         font-weight: bold;
     }
 }
-
 /* fim de cabeçalho mobile */
 
 
@@ -155,7 +154,6 @@ a {
         margin: 10px;
     }
 }
-
 /* fim de cabeçalho desktop */
 /* fim da estilização do cabeçalho */
 
@@ -196,8 +194,14 @@ body {
     font-size: 60px;
 }
 
-.home__greeting a {
+.home__greeting a, {
     font-size: 1.3em;
+    line-height: 1.8em;
+}
+
+.home__greeting p{
+    font-size: 1.4em;
+    line-height: 1.8em;
 }
 
 .home__greeting span{
@@ -226,7 +230,6 @@ body {
 .home__scroll {
     display: none;
 }
-
 /* fim da home */
 
 
