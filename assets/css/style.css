@@ -20,9 +20,8 @@ a {
 /* inicio do cabeçalho */
 .header-container {
     background-color: rgba(0, 0, 0, 0.98);
-    background-image: url('/assets/img/header-nasa-photo-iss066e172499.png');
+    background-image: url('../../assets/img/bg-header-nasa-photo-iss066e172499.png');
     background-repeat: no-repeat;
-    background-size: cover;
     opacity: 0.98;
     width: 100%;
     box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
@@ -55,7 +54,7 @@ a {
     }
 
     .header-container__btn--expand {
-        background-image: url('../img/white expand icon by unicons font.png');
+        background-image: url('../../assets/img/icon-button-expand.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-color: inherit;
@@ -64,7 +63,7 @@ a {
     }
 
     .header-container__btn--close {
-        background-image: url('../img/white\ close\ icon\ 2\ by\ unicons\ font.png');
+        background-image: url('../../assets/img/icon-button-close.png');
     }
 
     #header-container__btn {
@@ -104,9 +103,7 @@ a {
     .nav-menu__list ul {
         background-color: rgba(0, 0, 0, 0.95);
         box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
-        background-image: url('/assets/img/header-nasa-photo-iss066e172499.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url('../../assets/img/bg-header-nasa-photo-iss066e172499.png');
         opacity: 0.98;
         border-bottom-left-radius: 100px;
         border-bottom-right-radius: 100px;
