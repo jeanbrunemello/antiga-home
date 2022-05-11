@@ -212,6 +212,7 @@ body {
 .home__greeting i {
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
+    color: rgb(215, 190, 215);
 }
 
 .home__greeting a {
@@ -220,6 +221,7 @@ body {
 }
 
 .home__greeting p {
+    color: rgb(215, 190, 215);
     font-size: 1.4em;
     line-height: 1.8em;
 }
@@ -237,7 +239,7 @@ body {
 .home__greeting h1::first-letter {
     font-size: 72px;
     color: rgb(0, 0, 0);
-    text-shadow: 0px 0px 5px whitesmoke;
+    text-shadow: 0px 0px 5px rgb(215, 190, 215);
 }
 
 .home__greeting h2 i {
