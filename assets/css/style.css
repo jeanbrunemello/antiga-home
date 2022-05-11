@@ -117,7 +117,6 @@ a {
         font-size: 1.2em;
     }
 }
-
 /* fim de cabeçalho mobile */
 
 
@@ -249,21 +248,53 @@ body {
 .home__scroll {
     display: none;
 }
-
 /* fim da home */
 
 
-
-.about {
-    width: 80%;
-    margin: 0 auto;
-    text-align: justify;
-    padding: 20px;
-    text-indent: 25px;
-    line-height: 1.3;
+/* inicio do about */
+#about{
+    height: 100px;
+    box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
+    clip-path: inset(1px 1px -5px 1px);
 }
 
-.portifolio {
+.about{
+text-align: justify;
+/* margin-top: 120px; */
+}
+
+.about__title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.about__title i{
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: rgb(215, 190, 215);
+}
+
+.about__title::first-letter{
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(215, 190, 215);
+}
+
+.about__text{
+    background-color: rgba(245, 245, 245, 0.02);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+}
+
+
+/* fim do about */
+
+
+/* .portifolio {
     background-color: beige;
 }
 
@@ -280,12 +311,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+ */
 .portifolio img {
     margin-top: 10px;
     max-width: 200px;
 }
-
+/* 
 
 .contact {
     background-color: blueviolet;
@@ -299,4 +330,4 @@ body {
     .main-container {
         width: 80%;
     }
-}
+} */
