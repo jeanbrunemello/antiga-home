@@ -350,8 +350,7 @@ body {
 /* inicio de soft skills */
 .skills__softskills-container {
     background-color: rgba(241, 32, 231, 0.15);
-
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 10px;
 }
 
