@@ -115,6 +115,7 @@ a {
         font-size: 1.2em;
     }
 }
+
 /* fim de cabeçalho mobile */
 
 
@@ -159,7 +160,7 @@ a {
         /* color: rgb(215, 190, 215); */
         margin: 10px;
     }
-    
+
     .nav-menu__item a:hover {
         color: rgb(215, 190, 215);
         text-shadow: 0px 0px 5px black;
@@ -178,12 +179,13 @@ body {
     background-attachment: fixed;
 }
 
-@media (min-width: 768px){
-    .body{
-    background-image: url('../../assets/img/bg-hd-nasa-photo-iss066e172499.jpg');
+@media (min-width: 768px) {
+    .body {
+        background-image: url('../../assets/img/bg-hd-nasa-photo-iss066e172499.jpg');
 
     }
 }
+
 /* inicio da home */
 .main-container {
     text-align: center;
@@ -254,51 +256,88 @@ body {
 .home__scroll {
     display: none;
 }
+
 /* fim da home */
 
 
 /* inicio do about */
 /* inicio do about mobile */
-.quickmenu{
+.quickmenu {
     height: 100px;
     box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
     clip-path: inset(1px 1px -5px 1px);
 }
 
-.about{
-text-align: justify;
-/* margin-top: 120px; */
+.about {
+    text-align: justify;
+
 }
 
-.about__title{
+.about__title {
     font-family: 'Great Vibes', cursive;
     font-size: 36px;
     margin-left: 20px;
 }
 
-.about__title i{
+.about__title i {
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
     color: rgb(215, 190, 215);
 }
 
-.about__title::first-letter{
+.about__title::first-letter {
     font-size: 72px;
     color: rgb(0, 0, 0);
     text-shadow: 0px 0px 5px rgb(215, 190, 215);
 }
 
-.about__text{
+.about__text {
     background-color: rgba(245, 245, 245, 0.02);
     border-radius: 20px;
     padding: 20px;
     text-align: justify;
-    text-indent: 25px;
     line-height: 1.5em;
 }
+
 /* fim do about mobile */
 /* fim do about */
 
+/* --- */
+.section {
+    text-align: justify;
+    /* margin-top: 120px; */
+}
+
+.section__title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.section__title i {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: rgb(215, 190, 215);
+}
+
+.section__title::first-letter {
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(215, 190, 215);
+}
+
+.section p {
+    background-color: rgba(245, 245, 245, 0.02);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+/* --- */
+
+/* inicio de soft skills */
+
+/* fim de soft skills */
 
 /* .portifolio {
     background-color: beige;
@@ -322,6 +361,7 @@ text-align: justify;
     margin-top: 10px;
     max-width: 200px;
 }
+
 /* 
 
 .contact {
@@ -336,9 +376,9 @@ text-align: justify;
     .main-container {
         width: 85%;
     }
-} 
+}
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .main-container {
         width: 80%;
     }
