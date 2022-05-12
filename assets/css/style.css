@@ -303,6 +303,17 @@ body {
 /* fim do about */
 
 /* --- */
+.link__btn {
+    color: rgb(215, 190, 215);
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    text-align: center;
+    font-size: 110%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(241, 32, 231, 0.2);
+    text-shadow: 0px 0px 20px rgba(241, 32, 231, 0.6);
+}
+
 .section {
     text-align: justify;
     /* margin-top: 120px; */
@@ -333,9 +344,41 @@ body {
     text-align: justify;
     line-height: 1.5em;
 }
+
 /* --- */
 
 /* inicio de soft skills */
+.skills__softskills-container {
+    background-color: rgba(241, 32, 231, 0.15);
+
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills__item {
+    background-color: black;
+    background-image: url("../img/bg-header-nasa-photo-iss066e172499.png");
+    background-attachment: fixed;
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.card-item h2 {
+    color: rgb(215, 190, 215);
+    margin: 0 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-item p {
+    background: none;
+    padding-top: 0;
+}
+
+
+
 
 /* fim de soft skills */
 
