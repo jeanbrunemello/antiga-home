@@ -259,7 +259,7 @@ body {
 
 /* inicio do about */
 /* inicio do about mobile */
-#about{
+.quickmenu{
     height: 100px;
     box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
     clip-path: inset(1px 1px -5px 1px);
