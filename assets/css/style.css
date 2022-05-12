@@ -252,6 +252,7 @@ body {
 
 
 /* inicio do about */
+/* inicio do about mobile */
 #about{
     height: 100px;
     box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
@@ -266,7 +267,7 @@ text-align: justify;
 .about__title{
     font-family: 'Great Vibes', cursive;
     font-size: 36px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .about__title i{
@@ -289,8 +290,7 @@ text-align: justify;
     text-indent: 25px;
     line-height: 1.5em;
 }
-
-
+/* fim do about mobile */
 /* fim do about */
 
 
@@ -325,9 +325,15 @@ text-align: justify;
 .contact img {
     width: 32px;
 }
-
+*/
 @media (min-width: 576px) {
+    .main-container {
+        width: 85%;
+    }
+} 
+
+@media (min-width: 768px){
     .main-container {
         width: 80%;
     }
-} */
+}
