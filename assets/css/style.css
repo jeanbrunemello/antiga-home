@@ -180,6 +180,12 @@ body {
     background-attachment: fixed;
 }
 
+@media (min-width: 768px){
+    .body{
+    background-image: url('../../assets/img/bg-hd-nasa-photo-iss066e172499.jpg');
+
+    }
+}
 /* inicio da home */
 .main-container {
     text-align: center;
@@ -202,21 +208,24 @@ body {
     padding: 10px;
 }
 
+
 .home__greeting h1,
 .home__greeting h2,
 .home__greeting i {
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
-    color: rgb(215, 190, 215);
+    /* color: rgb(215, 190, 215); */
 }
+
 
 .home__greeting a {
     font-size: 1.3em;
     line-height: 1.8em;
+    color: rgb(215, 190, 215);
 }
 
 .home__greeting p {
-    color: rgb(215, 190, 215);
+    /* color: rgb(215, 190, 215); */
     font-size: 1.4em;
     line-height: 1.8em;
 }
