@@ -177,7 +177,7 @@ a {
 body {
     background-color: rgb(0, 2, 61);
     background-image: url('../../assets/img/bg-mobile-nasa-photo-iss066e172499.jpg');
-    background-position: center center fixed;
+    background-attachment: fixed;
 }
 
 /* inicio da home */
@@ -191,7 +191,6 @@ body {
 .home {
     height: 100vh;
     /* border-bottom:  1px solid rgba(241, 32, 231, 0.2); */
-    box-shadow: 0px 3px 5px 0px rgba(241, 32, 231, 0.2);
     clip-path: inset(1px 1px -5px 1px);
 }
 
