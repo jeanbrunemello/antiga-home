@@ -318,7 +318,7 @@ body {
     
 }
 
-.skills__item {
+.card-item {
     background-color: rgba(241, 32, 231, 0.03);
     box-shadow: 0 0 5px 5px rgba(241, 32, 231, 0.2);
     /* background-image: url("../img/bg-header-nasa-photo-iss066e172499.png"); */
