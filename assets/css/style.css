@@ -188,9 +188,7 @@ body {
     clip-path: inset(1px 1px -5px 1px);
 }
 
-.card-icon{
-    margin: 0px 0px -5px 0px;
-}
+
 
 .link__btn {
     color: rgb(215, 190, 215);
@@ -322,6 +320,16 @@ body {
     
 }
 
+.card-icon{
+    height: 36px;
+    width: 36px;
+    color: red;
+    filter: invert(99%) sepia(100%) saturate(3498%) hue-rotate(188deg) brightness(91%) contrast(87%);
+    vertical-align:middle;
+    margin-top: -10px;
+    margin: -10px 5px 0 0;
+}
+
 .card-item {
     background-color: rgba(241, 32, 231, 0.03);
     box-shadow: 0 0 5px 5px rgba(241, 32, 231, 0.2);
@@ -343,6 +351,12 @@ body {
 }
 /* fim de soft skills */
 
+/* inicio de prizes */
+.card-icon-trophy{
+    margin: 0px 5px -5px 0px;
+    
+}
+/* fim de prizes */
 .contact {
     background-color: blueviolet;
 }
