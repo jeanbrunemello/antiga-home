@@ -364,17 +364,25 @@ body {
 /* fim de prizes */
 
 /* inicio de contacts */
-@media (min-width:768px) {
-    .contact__social{
+@media (min-width:576px) {
+    .contact__social {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .contact__item {
+        min-width: 50%;
         justify-content: space-evenly;
-
-    }    
-
+    }
 }
 
-.contact__info {
+@media (min-width:768px) {
+    .contact__item {
+        min-width: 33.333%;
+    }
+}
+
+.contact__item {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -384,7 +392,7 @@ body {
 .contact__item-logo {
     display: flex;
     margin-top: 10px;
-} 
+}
 
 .contact__item h2 {
     display: flex;
@@ -397,4 +405,5 @@ body {
     height: 72px;
     margin: 0;
 }
+
 /* fim de contact */
