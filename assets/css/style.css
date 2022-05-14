@@ -4,6 +4,7 @@
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -360,28 +361,9 @@ body {
     margin: 0px 5px -5px 0px;
 
 }
-
 /* fim de prizes */
 
 /* inicio de contacts */
-@media (min-width:576px) {
-    .contact__social {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .contact__item {
-        min-width: 50%;
-        justify-content: space-evenly;
-    }
-}
-
-@media (min-width:768px) {
-    .contact__item {
-        min-width: 33.333%;
-    }
-}
-
 .contact__item {
     display: flex;
     flex-wrap: wrap;
@@ -405,5 +387,61 @@ body {
     height: 72px;
     margin: 0;
 }
-
 /* fim de contact */
+
+@media (min-width:576px) {
+    .contact__social {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact__item {
+        min-width: 50%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width:768px) {
+    .contact__item {
+        min-width: 33%;
+    }
+
+    .prizes__flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .prizes__item {
+        max-width: 40%;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+@media (min-width:1024px) {
+    /* exibir colunas duplas nos skills */
+    /* .skills__softskills-container,
+    .skills__hardskills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+
+    .skills__item{
+        max-width: 40%;
+    } */
+
+    .prizes__flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+
+    .prizes__item {
+        max-width: 25%;
+    }
+}
