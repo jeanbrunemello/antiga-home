@@ -112,6 +112,7 @@ header {
         font-size: 1.2em;
     }
 }
+
 /* fim de cabeçalho mobile */
 
 
@@ -164,6 +165,7 @@ header {
     }
 
 }
+
 /* fim de cabeçalho desktop */
 
 /* fim da estilização do cabeçalho */
@@ -193,7 +195,7 @@ body {
 .link__btn {
     color: rgb(215, 190, 215);
     margin: 0;
-    padding: 0 5px 5px 5px;
+    padding: 0 8px 5px 8px;
     text-align: center;
     font-size: 110%;
     border-radius: 15px;
@@ -231,6 +233,7 @@ body {
     margin-bottom: 30px;
     font-size: 110%;
 }
+
 /* fim da estilização do body */
 
 /* inicio da home */
@@ -278,13 +281,13 @@ body {
     line-height: 1.8em;
 }
 
-.home__greeting-btn {
+.home__greeting-highlight {
     font-size: 1.3em;
     line-height: 1.8em;
     color: rgb(215, 190, 215);
 }
 
-.home__greeting span {
+.main__btn {
     padding: 10px;
     text-align: center;
     font-size: 110%;
@@ -317,15 +320,15 @@ body {
 .skills__softskills-container {
     border-radius: 15px;
     padding: 10px;
-    
+
 }
 
-.card-icon{
+.card-icon {
     height: 36px;
     width: 36px;
     color: red;
     filter: invert(99%) sepia(100%) saturate(3498%) hue-rotate(188deg) brightness(91%) contrast(87%);
-    vertical-align:middle;
+    vertical-align: middle;
     margin-top: -10px;
     margin: -10px 5px 0 0;
 }
@@ -338,10 +341,10 @@ body {
     border-radius: 20px;
     text-align: justify;
     line-height: 1.5em;
-    padding: 5px 20px; 
+    padding: 5px 20px;
     margin: 0 -10px 20px -10px;
     /* box-shadow: 1px 1px 5px 6px rgba(241, 32, 231, 0.15); */
-    
+
 }
 
 .card-item h2 {
@@ -349,18 +352,49 @@ body {
     font-weight: bold;
     text-align: left;
 }
+
 /* fim de soft skills */
 
 /* inicio de prizes */
-.card-icon-trophy{
+.card-icon-trophy {
     margin: 0px 5px -5px 0px;
-    
-}
-/* fim de prizes */
-.contact {
-    background-color: blueviolet;
+
 }
 
-.contact img {
-    width: 32px;
+/* fim de prizes */
+
+/* inicio de contacts */
+@media (min-width:768px) {
+    .contact__social{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }    
+
 }
+
+.contact__info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact__item-logo {
+    display: flex;
+    margin-top: 10px;
+} 
+
+.contact__item h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.contact-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0;
+}
+/* fim de contact */
