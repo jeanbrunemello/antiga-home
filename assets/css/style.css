@@ -29,6 +29,18 @@ header {
     z-index: 999;
 }
 
+.logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    color: rgb(215, 190, 215);
+}
+
+.logo h1::first-letter{
+    font-size: 56px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(215, 190, 215);
+}
+
 .header-container__logo a {
     font-family: 'Great Vibes', cursive;
     font-size: 48px;
@@ -444,4 +456,47 @@ body {
     .prizes__item {
         max-width: 25%;
     }
+}
+
+/* footer */
+.footer__container{
+    margin-top: 20px;
+    min-width: 320px;
+    font-size: small;
+    text-align: center;
+    background-color: rgba(241, 32, 231, 0.1);
+    box-shadow: 0px -3px 5px 0px rgba(241, 32, 231, 0.2);
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo{
+margin: 0 10px;
+padding: 0 10px;
+}
+
+.footer__signature{
+    margin: 0 10px;
+}
+
+.footer__signature h2{
+    color: rgb(215, 190, 215)
+}
+
+.footer-icon{
+vertical-align:bottom;
+margin-left: -10px;
+margin-right: -5px;
+}
+
+
+.footer__copyright{
+    background-color: black;
+    padding: 5px;
+    font-size: small;
+    text-align: center;
 }
